@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
+}
+.btn{
+    border: none;
+    background-color: azure;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.left-side{
+    /* margin-top: 10px; */
+    background-color: azure;
+    width: 250px;
+    height: 635px;
+    position: relative;
+}
+
+.allProjectsHead{
+    margin-left: 20px;
+}
+
+
+#add{
+    height: 35px;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 273px;
+    top: 66px;
+}
+
+.main   {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.mainHeading{
+    position: absolute;
+    left: 42%;
+}
+
+.createProjectInputs {
+    position: absolute;
+    top: 160px;
+    left: 274px;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 540px;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    background-color: gainsboro;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.createbtn{
+    height: 35px;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+
+.display-div {
+    position: absolute;
+    top: 136px;
+    left: 274px;
+    line-height: 50px;
+}
+
+.createTask{
+    height: 35px;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    background-color: cadetblue;
+    position: absolute;
+}
+
+.deleteTask{
+    height: 35px;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 8px;
+    left: 891px;
+}
+
+.taskname{
+    height: 35px;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 70px;
+}
+
+.images-pro{
+    position: absolute;
+    top: 130px;
+}
